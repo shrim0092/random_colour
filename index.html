@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<link rel="stylesheet" href="index.css">
+</head>
 <body>
-<button type="button" onclick="myFunction()">Random Colour</button>
-<script>
-function myFunction() {
-  let r=Math.random(1)*255;
-  let g=Math.random(1)*255;
-  let b=Math.random(1)*255;
-  document.body.style.backgroundColor = 'rgb('+r+','+g+','+b+')';
-}
+<script src="index.js">
 </script>
+<div id="body_div">
+	<button type="button" onclick="randomColour()">Random Colour</button>
+	<div id="colour_code"><b>Color Code</b></div>
+</div>
 
 </body>
 </html>
